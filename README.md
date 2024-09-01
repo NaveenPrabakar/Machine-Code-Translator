@@ -36,26 +36,26 @@ This project decodes binary instructions encoded in the LEGv8 assembly language.
 - **`ArrayList<Integer>`**:
   - Also used in `PA2.java` to store the locations of labels within the instruction set.
  
-  [Screenshot 2024-09-01 105722](https://github.com/user-attachments/assets/6cec2f34-8e32-40e7-9ac7-6205a62e9ba0)
+  ![Screenshot 2024-09-01 105722](https://github.com/user-attachments/assets/6cec2f34-8e32-40e7-9ac7-6205a62e9ba0)
 
 ## Algorithms
 
 - **Bitwise Operations**:
   - The project makes extensive use of bitwise operators (`>>`, `&`, etc.) to extract fields from 32-bit binary instructions. For example, extracting the opcode might involve shifting the bits of the instruction to the right and masking with a bitwise AND operation.
 
-    [Screenshot 2024-09-01 105758](https://github.com/user-attachments/assets/8308b151-c854-40da-bc3a-7b31fb6db786)
+    ![Screenshot 2024-09-01 105758](https://github.com/user-attachments/assets/8308b151-c854-40da-bc3a-7b31fb6db786)
 
 
 - **File I/O**:
   - `PA2.java` reads binary data from a file in chunks of 4 bytes (32 bits). This data is then processed to form the complete 32-bit instructions.
  
-    [Screenshot 2024-09-01 105713](https://github.com/user-attachments/assets/726a255c-341f-488a-ac53-0f316d22c52e)
+    ![Screenshot 2024-09-01 105713](https://github.com/user-attachments/assets/726a255c-341f-488a-ac53-0f316d22c52e)
 
 
 - **Decoding**:
   - The `Output.java` class maps binary opcodes to assembly language instructions using a hashtable, allowing for efficient decoding.
  
-    [image](https://github.com/user-attachments/assets/ebc0fcc9-9a67-448f-baea-559bb99e15b9)
+    ![image](https://github.com/user-attachments/assets/ebc0fcc9-9a67-448f-baea-559bb99e15b9)
 
 
 ## Usage
