@@ -27,7 +27,7 @@ This project decodes binary instructions encoded in the LEGv8 assembly language.
 - **`Hashtable<Integer, String>`**:
   - Used in `Output.java` to store opcode mappings. This structure allows for quick lookup of assembly instructions based on binary opcodes.
  
-  [Screenshot 2024-09-01 105829](https://github.com/user-attachments/assets/dcdff201-7de6-4a71-bf00-7313b90b87ed)
+  ![Screenshot 2024-09-01 105829](https://github.com/user-attachments/assets/dcdff201-7de6-4a71-bf00-7313b90b87ed)
 
 
 - **`ArrayList<String>`**:
@@ -71,9 +71,3 @@ To use this tool, you need a binary file containing 32-bit LEGv8 instructions. T
 To compile the project, use the provided `build.sh` script:
   ```bash
   ./build.sh
-
-
-  
-
-
-
